@@ -1,0 +1,18 @@
+CREATE DATABASE property24;
+
+go
+
+CREATE TABLE property_details (
+	COUNTRY VARCHAR(250),
+	PROVINCE VARCHAR(255) NOT NULL,
+	CITY VARCHAR(255) NOT NULL,
+	PROPERTY_PRICE INT,
+	BEDROOMS INT,
+	BATHROOMS INT,
+	PARKING INT,
+	FLOOR_SIZE INT,
+	Monthly_Rental_Price INT,
+	Total_once_off_costs INT,
+	Min_Gross_Monthly_income INT
+	
+)
